@@ -1,0 +1,16 @@
+
+img{
+    width: 100%;
+    height: 760px;
+    
+}
+
+.container-fluid{
+padding: 0 !important; margin: 0 !important;
+}
+
+.col-12{
+padding:0 !important;
+}
+
+
