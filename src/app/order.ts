@@ -1,6 +1,5 @@
 export class Order {
   constructor(
-    public id: number,
     public name: string,
     public date : Date,
     public street: string,
@@ -19,7 +18,6 @@ export class Order {
     public payment_type: string,
     payment_due: number
     ) { 
-   this.id= id;
    this.name = name;
    this.date = date;
    this.street = street;

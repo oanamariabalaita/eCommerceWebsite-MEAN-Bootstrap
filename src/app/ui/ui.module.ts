@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartComponent } from './cart/cart.component';
 import { ShopComponent } from './shop/shop.component';
 import { ContactComponent } from './contact/contact.component';
+import { UiRoutingModule } from './ui-routing.module'
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
   exports: [LayoutComponent],
   imports: [
     CommonModule,
+    UiRoutingModule,
     NgbModule.forRoot()
   ]
 })
